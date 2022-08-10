@@ -16,13 +16,17 @@ import com.rainy.compose_learning.ui.layout.ArtistCard
 import com.rainy.compose_learning.ui.layout.Message
 import com.rainy.compose_learning.ui.layout.MessageCard
 import com.rainy.compose_learning.ui.layout.SampleData
+import com.rainy.compose_learning.ui.material.BackdropExample
+import com.rainy.compose_learning.ui.material.BottomSheetExample
+import com.rainy.compose_learning.ui.material.ModelDrawerExample
+import com.rainy.compose_learning.ui.material.ScaffoldExample
 import com.rainy.compose_learning.ui.theme.ComposeLearning2022Theme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            PreviewMessageCard()
+            BackdropExample()
         }
     }
 }
