@@ -12,6 +12,7 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.rainy.compose_learning.ui.alignment.ChartDataPreview
 import com.rainy.compose_learning.ui.layout.ArtistCard
 import com.rainy.compose_learning.ui.layout.Message
 import com.rainy.compose_learning.ui.layout.MessageCard
