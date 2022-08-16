@@ -5,6 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.annotation.DrawableRes
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.ScrollState
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -27,6 +28,7 @@ import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.BasicTextField
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.Button
 import androidx.compose.material.ButtonDefaults
 import androidx.compose.material.Icon
@@ -48,6 +50,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.rainy.compose_learning.ui.customview.WaveLoading
 import com.rainy.compose_learning.ui.layout.Message
 import com.rainy.compose_learning.ui.layout.MessageCard
 
@@ -55,7 +58,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            StartConversation()
+            StartWaveLoading()
         }
     }
 }
@@ -84,6 +87,36 @@ private fun StartConversation() {
             NamesBar()
         }
         NavBar()
+    }
+}
+
+@Preview
+@Composable
+private fun StartWaveLoading() {
+    Column(
+        modifier = Modifier
+            .verticalScroll(state = ScrollState(0))
+            .fillMaxWidth(),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        WaveLoading(
+            modifier = Modifier.size(220.dp),
+            text = "江",
+            textSize = 150.sp,
+            waveColor = Color(0xFF3949AB)
+        )
+        WaveLoading(
+            modifier = Modifier.size(220.dp),
+            text = "石",
+            textSize = 150.sp,
+            waveColor = Color.Cyan
+        )
+        WaveLoading(
+            modifier = Modifier.size(220.dp),
+            text = "雨",
+            textSize = 150.sp,
+            waveColor = Color.Red
+        )
     }
 }
 
