@@ -45,6 +45,7 @@ fun WaveLoading(
         infiniteRepeatable(
             animation = tween(
                 durationMillis = 500,
+                //三阶贝塞尔曲线
                 easing = CubicBezierEasing(0.2f, 0.2f, 0.7f, 0.9f)
             ), repeatMode = RepeatMode.Restart
         )
