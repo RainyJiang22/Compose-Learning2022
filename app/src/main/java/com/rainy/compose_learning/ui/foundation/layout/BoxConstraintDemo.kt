@@ -2,6 +2,7 @@ package com.rainy.compose_learning.ui.foundation.layout
 
 import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.text.TextStyle
@@ -21,6 +22,10 @@ fun BoxWithConstraintDemo() {
     Column {
         Column {
             MyBoxWithConstraintsDemo()
+        }
+        Row {
+            Text("Hello World")
+            Text(text = "Hello World2")
         }
     }
 
