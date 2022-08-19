@@ -1,4 +1,4 @@
-package com.rainy.compose_learning.ui.adaptive
+package com.rainy.compose_learning.ui.foundation.layout.adaptive
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.BoxWithConstraints

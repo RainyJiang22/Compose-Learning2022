@@ -13,7 +13,6 @@ import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.RowScope
-import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.aspectRatio
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -52,8 +51,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.rainy.compose_learning.ui.animation.BackHandlerDemo
 import com.rainy.compose_learning.ui.customview.WaveLoading
-import com.rainy.compose_learning.ui.layout.Message
-import com.rainy.compose_learning.ui.layout.MessageCard
+import com.rainy.compose_learning.ui.foundation.layout.Message
+import com.rainy.compose_learning.ui.foundation.layout.MessageCard
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

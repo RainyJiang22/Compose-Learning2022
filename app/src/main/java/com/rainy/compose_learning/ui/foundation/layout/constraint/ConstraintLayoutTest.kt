@@ -1,4 +1,4 @@
-package com.rainy.compose_learning.ui.constraint
+package com.rainy.compose_learning.ui.foundation.layout.constraint
 
 import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.material.Button

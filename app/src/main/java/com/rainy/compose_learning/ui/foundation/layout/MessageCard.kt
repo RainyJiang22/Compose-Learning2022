@@ -1,4 +1,4 @@
-package com.rainy.compose_learning.ui.layout
+package com.rainy.compose_learning.ui.foundation.layout
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.border

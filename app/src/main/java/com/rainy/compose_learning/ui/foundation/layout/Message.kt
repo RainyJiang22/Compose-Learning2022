@@ -1,4 +1,4 @@
-package com.rainy.compose_learning.ui.layout
+package com.rainy.compose_learning.ui.foundation.layout
 
 /**
  * @author jiangshiyu

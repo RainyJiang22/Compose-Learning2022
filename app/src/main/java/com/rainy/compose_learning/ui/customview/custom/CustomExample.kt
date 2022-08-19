@@ -1,4 +1,4 @@
-package com.rainy.compose_learning.ui.custom
+package com.rainy.compose_learning.ui.customview.custom
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.Text
@@ -8,10 +8,8 @@ import androidx.compose.ui.layout.AlignmentLine
 import androidx.compose.ui.layout.FirstBaseline
 import androidx.compose.ui.layout.Layout
 import androidx.compose.ui.layout.layout
-import androidx.compose.ui.platform.LocalLayoutDirection
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.Dp
-import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
 import com.rainy.compose_learning.ui.theme.ComposeLearning2022Theme
 
